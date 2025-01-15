@@ -2,6 +2,9 @@
 body {
   font-family: "Open Sans", serif;
 }
+.header {
+  background-color: rgb(20, 161, 102);
+}
 
 /* set styles for nav bar */
 .text-primary {
@@ -19,6 +22,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  margin: 0 200px;
 }
 .nav-title {
   color: black;
@@ -36,5 +40,13 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: grey;
+  color: yellow;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+.banner .profile-pic {
+  width: 400px;
 }
