@@ -4,6 +4,15 @@ body {
 }
 .header {
   background-color: rgb(20, 161, 102);
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.section-title {
+  text-align: center;
+  color: black;
+  font-size: 35px;
+  font-family: 700;
 }
 
 /* set styles for nav bar */
@@ -43,10 +52,49 @@ nav a {
   color: yellow;
 }
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .banner .profile-pic {
   width: 400px;
+}
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-welcome {
+  font-size: 45px;
+  margin-bottom: 0px;
+}
+.banner-title {
+  font-size: 85px;
+
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.banner-description {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+/* main section styles */
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: coral;
+  margin: 130px 0px;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.info-title {
+  text-align: center;
 }
