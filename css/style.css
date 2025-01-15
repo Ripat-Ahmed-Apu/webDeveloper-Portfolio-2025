@@ -1,0 +1,40 @@
+/* set google fonts */
+body {
+  font-family: "Open Sans", serif;
+}
+
+/* set styles for nav bar */
+.text-primary {
+  color: orange;
+}
+.btn-primary {
+  background-color: orange;
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: whitesmoke;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-title {
+  color: black;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
+}
